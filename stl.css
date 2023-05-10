@@ -1,0 +1,124 @@
+.ctgrs{
+    margin: auto;
+    width: 100%;
+    height: 800px;
+    padding-top: 5vw;
+    border-bottom: 1px solid gray;
+}
+.ctgrs h6{
+    color: gray;
+}
+
+.ctgrs h1, .ctgrs h6{
+    text-align: center;
+}
+
+.ctgkutu{
+    width: 80%;
+    height:80%;
+    background-color: #2B2D42;
+    margin:auto;
+    border-radius: 10px;
+    position: relative;
+}
+.stlimg{
+    position: absolute;
+    height: auto;
+    width: 32%;
+    right: 4%;
+    top: 7%;
+    bottom: 7%;
+    
+}
+.stlimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.stlbaslik{
+    position: absolute;
+    color: white;
+    height: auto;
+    width: 30%;
+    right: 40%;
+    top: 30%;
+}
+.stlbut{
+    width: 100%;
+    height: 50px;
+}
+.stlbut span{
+    color: white;
+    padding: 4px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.stlbut:hover{
+    transition: .5s;
+    background-color:#8D99AF ;
+    color: white;
+}
+.stlsoll{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100%;
+}
+.stlsol{
+    display: block;
+    height: 20%;
+    width: 40%;
+    line-height: 140px;
+    text-align: left;
+    background-color: #8D99AF;
+}
+.stlsol a span{
+    padding: 32px 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: #8D99AF;
+
+}
+.stlsol a{
+    color: white;
+}
+.altczg{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding-top: 5vw;
+    
+}
+.altczg h6{
+    color: gray;
+}
+
+.altczg h1, .altczg h6{
+    text-align: center;
+}
+.altblm{
+    position: relative;
+    height: auto;
+    width: 32%;
+    right: 4%;
+    top: 7%;
+    bottom: 7%;
+    
+}
+.altblm img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.aciklama a{
+    transition: .5s;
+    width: 49%;
+    display: inline-block;
+}
+
+.aciklama a:hover{
+    transition: .5s;
+    color: rgba(0, 0, 0, 0.264);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.264);
+}
